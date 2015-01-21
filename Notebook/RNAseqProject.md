@@ -84,9 +84,11 @@ abline(h=c(-1,1), col="blue")
 write.table(tmp.sig, "/Users/alumnomatlab/Desktop/Project/data/Cgigas-HS-count.tab", row.names = T)
 ```
 #Grafica
-```
-!plot(../img/Rplot.pdf)
+
+ ```
+ !plot(../img/Rplot.pdf)
+```
 
 ```
-#
 sed 's/text_you_want_replaced/replacement_text/g' path/to/Users/alumnomatlab/Desktop/Project/data/Cgigas-HS-count.tab > path/to/Users/alumnomatlab/Desktop/Project/data/Cgigas-HS-count2.tab
+```
