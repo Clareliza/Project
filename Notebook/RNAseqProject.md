@@ -85,5 +85,8 @@ write.table(tmp.sig, "/Users/alumnomatlab/Desktop/Project/data/Cgigas-HS-count.t
 ```
 #Grafica
 ```
-!plot
+!plot(../img/Rplot.pdf)
+
 ```
+#
+sed 's/text_you_want_replaced/replacement_text/g' path/to/Users/alumnomatlab/Desktop/Project/data/Cgigas-HS-count.tab > path/to/Users/alumnomatlab/Desktop/Project/data/Cgigas-HS-count2.tab
